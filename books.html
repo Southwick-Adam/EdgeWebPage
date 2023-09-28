@@ -6,6 +6,7 @@
       ul {
         width: 100%;
         padding: 0;
+        margin: 0;
         display: flex;
         list-style-type: none;
       }
@@ -20,38 +21,57 @@
         padding: 20px;
       }
 
-      #title1 {
-        background-color: #87e088;
+      .t1,
+      .hc1 {
+        background-color: #9deb9e;
       }
-      #title2 {
+      .t2,
+      .hc2 {
         background-color: #ffbf75;
       }
-      #title3 {
+      .t3,
+      .hc3 {
         background-color: #c4aaf2;
       }
-      #title4 {
+      .t4,
+      .hc4 {
         background-color: #a7a7b5;
       }
-      #title5 {
+      .t5,
+      .hc5 {
         background-color: #b1cce3;
       }
 
-      .btnContainer {
-        margin: 20px;
-        height: 50px;
-        display: flex;
+      .book1, .book2, .book3, .book4, .book5 {
+        box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
       }
 
-      .btn {
-        margin: auto;
-        align-self: center;
-        background-color: #f7c49c;
-        border-color: #cf620e;
-        color: #472001;
+      .hc1, .hc2, .hc3, .hc4, .hc5 {
+        display: none;
+        position: absolute;
       }
 
-      .btn:hover:not(.active) {
-        background-color: #ffe2cc;
+      .book1:hover .hc1 {
+        display: block;
+      }
+      .book2:hover .hc2 {
+        display: block;
+      }
+      .book3:hover .hc3 {
+        display: block;
+      }
+      .book4:hover .hc4 {
+        display: block;
+      }
+      .book5:hover .hc5 {
+        display: block;
+      }
+
+      .hover-content p {
+        font-weight: bold;
+        margin: 0;
+        font-family: fantasy;
+        padding: 30px;
       }
     </style>
     <title>The Edge Chronicals : Books</title>
@@ -74,25 +94,80 @@
     </div>
     <ul class="undernav">
       <li>
-        <h3 class="title" id="title1">Beyond the Deep Woods</h3>
-        <img src="./images/book1.png" alt="Book 1 Cover" />
+        <h3 class="title t1">Beyond the Deep Woods</h3>
+        <img class="book1" src="./images/book1.png" alt="Book 1 Cover" />
       </li>
       <li>
-        <h3 class="title" id="title2">Storm Chaser</h3>
-        <img src="./images/book2.png" alt="Book 2 Cover" />
+        <h3 class="title t2">Storm Chaser</h3>
+        <img class="book2" src="./images/book2.png" alt="Book 2 Cover" />
       </li>
       <li>
-        <h3 class="title" id="title3">Midnight over Sanctaphrax</h3>
-        <img src="./images/book3.png" alt="Book 3 Cover" />
+        <h3 class="title t3">Midnight over Sanctaphrax</h3>
+        <img class="book3" src="./images/book3.png" alt="Book 3 Cover" />
       </li>
       <li>
-        <h3 class="title" id="title4">Curse of the Gloamglozer</h3>
-        <img src="./images/book4.png" alt="Book 4 Cover" />
+        <h3 class="title t4">Curse of the Gloamglozer</h3>
+        <img class="book4" src="./images/book4.png" alt="Book 4 Cover" />
       </li>
       <li>
-        <h3 class="title" id="title5">The Last of the Sky Pirates</h3>
-        <img src="./images/book5.png" alt="Book 5 Cover" />
+        <h3 class="title t5">The Last of the Sky Pirates</h3>
+        <img class="book5" src="./images/book5.png" alt="Book 5 Cover" />
       </li>
     </ul>
+    <section class="hover-content hc1">
+      <p>
+        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
+        one of them. In a brave attempt to find where he belongs, Twig wanders
+        into the mysterious world beyond the Deepwoods. He meets a collection of
+        odd companions, such as his wise guardian, the Caterbird; the
+        Slaughterers, a peaceful race who butcher animals; and the vicious,
+        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
+        discovers his roots, not among the trees, but in the skies…
+      </p>
+    </section>
+    <section class="hover-content hc2">
+      <p>
+        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
+        one of them. In a brave attempt to find where he belongs, Twig wanders
+        into the mysterious world beyond the Deepwoods. He meets a collection of
+        odd companions, such as his wise guardian, the Caterbird; the
+        Slaughterers, a peaceful race who butcher animals; and the vicious,
+        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
+        discovers his roots, not among the trees, but in the skies…
+      </p>
+    </section>
+    <section class="hover-content hc3">
+      <p>
+        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
+        one of them. In a brave attempt to find where he belongs, Twig wanders
+        into the mysterious world beyond the Deepwoods. He meets a collection of
+        odd companions, such as his wise guardian, the Caterbird; the
+        Slaughterers, a peaceful race who butcher animals; and the vicious,
+        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
+        discovers his roots, not among the trees, but in the skies…
+      </p>
+    </section>
+    <section class="hover-content hc4">
+      <p>
+        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
+        one of them. In a brave attempt to find where he belongs, Twig wanders
+        into the mysterious world beyond the Deepwoods. He meets a collection of
+        odd companions, such as his wise guardian, the Caterbird; the
+        Slaughterers, a peaceful race who butcher animals; and the vicious,
+        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
+        discovers his roots, not among the trees, but in the skies…
+      </p>
+    </section>
+    <section class="hover-content hc5">
+      <p>
+        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
+        one of them. In a brave attempt to find where he belongs, Twig wanders
+        into the mysterious world beyond the Deepwoods. He meets a collection of
+        odd companions, such as his wise guardian, the Caterbird; the
+        Slaughterers, a peaceful race who butcher animals; and the vicious,
+        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
+        discovers his roots, not among the trees, but in the skies…
+      </p>
+    </section>
   </body>
 </html>
