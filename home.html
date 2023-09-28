@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .first {
+        display: flex;
+      }
+
+      p {
+        display: block;
+      }
+
+      .text {
+        width: 50%;
+        margin-top: 50px;
+      }
+
+      #map {
+        width: 50%;
+        height: fit-content;
+        margin: 20px;
+        max-width: 750px;
+      }
+
+      .authors {
+        display: inline;
+        width: 100%;
+      }
+
+      .authors h2 {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        background-color: #bfd7db;
+        color: #2a4145;
+      }
+
+      #auth_info {
+        display: flex;
+        background-color: #bfd7db;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      #auth_info img {
+        width: 200px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        background-color: #bfd7db;
+      }
+
+      #auth_info a {
+        padding: 10px;
+        font-size: Large;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        background-color: #dce6e8;
+        border: solid;
+        border-width: 3px;
+        border-radius: 5px;
+        border-color: #54828a;
+        font-weight: bold;
+        text-decoration: none;
+        color: #2a4145;
+      }
+
+      #auth_info a:hover:not(.active) {
+        background-color: white;
+      }
+
+      .bio {
+        background-color: #bfd7db;
+        padding-top: 15px;
+        display: block;
+      }
+    </style>
+    <title>The Edge Chronicals : Home</title>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Books</a>
+        <a href="#">World</a>
+        <a href="#">Characters</a>
+        <a href="#">Creatures</a>
+        <img
+          src="./images/logo.png"
+          alt="Logo"
+          id="logo"
+          style="text-align: right"
+        />
+      </nav>
+    </div>
+    <div class="first margin undernav">
+      <section class="text">
+        <h1>Welcome to The Edge...</h1>
+        <h3>
+          The Deepwoods, the Stone Gardens, the Edgewater River. Undertown and
+          Sanctaphrax. Names on a map. Yet behind each name lie a thousand
+          tales…
+        </h3>
+        <br />
+        <p>
+          The Edge Chronicles are the internationally best-selling illustrated
+          fantasy series created by Paul Stewart and Chris Riddell which has
+          featured on the UK and the New York Times best-seller lists and sold
+          more than 3 million copies in more than 20 languages around the world.
+        </p>
+        <br />
+        <p>
+          First launched in 1998, these stories are set in a world that is rich
+          with extraordinary characters, exotic creatures and landscapes from
+          the far reaches of the imagination and its own intriguing and
+          turbulent history.
+        </p>
+      </section>
+      <img src="./images/edge.jpeg" alt="Edge Map" id="map" />
+    </div>
+    <div class="authors">
+      <h2>Meet the Authors</h2>
+      <div id="auth_info">
+        <img src="./images/pstewart.jpeg" alt="Paul Stewart Photo" />
+        <div class="bio">
+          <p>
+            PAUL STEWART has written everything from picture books for young
+            readers to football stories, travel writing, fantasy and horror.
+          </p>
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Paul_Stewart_(writer)"
+            >Learn More</a
+          >
+        </div>
+        <img src="./images/criddel.jpeg" alt="Chris Riddel Photo" />
+        <div class="bio">
+          <p>
+            CHRIS RIDDELL is an author, illustrator and the political cartoonist
+            for the Observer. He was appointed the UK's Waterstones Children's
+            Laureate in 2015.
+          </p>
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Chris_Riddell">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
