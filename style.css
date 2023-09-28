@@ -69,15 +69,27 @@ nav a:hover:not(.active) {
 
 .active {
   background-color: #fcba03;
-  color: #636363;
+  color: black;
 }
 
 .undernav {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .margin {
   margin-left: 40px;
   margin-right: 40px;
   padding: 0;
+}
+
+.btn {
+  padding: 10px;
+  font-size: Large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
 }
