@@ -42,16 +42,7 @@
       #auth_info {
         display: flex;
         background-color: #bfd7db;
-        padding-left: 40px;
         padding-right: 40px;
-      }
-
-      #auth_info img {
-        width: 200px;
-        padding-right: 20px;
-        padding-bottom: 30px;
-        background-color: #bfd7db;
-        height: fit-content;
       }
 
       .btn {
@@ -65,9 +56,19 @@
       }
 
       .bio {
+        padding-left: 40px;
         background-color: #bfd7db;
         padding-top: 15px;
-        display: block;
+        display: flex;
+      }
+
+      .pic {
+        width: 200px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background-color: #bfd7db;
+        height: fit-content;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
       }
     </style>
     <title>The Edge Chronicals : Home</title>
@@ -116,26 +117,42 @@
     <div class="authors">
       <h2>Meet the Authors</h2>
       <div id="auth_info">
-        <img src="./images/pstewart.jpeg" alt="Paul Stewart Photo" />
         <div class="bio">
-          <p>
-            PAUL STEWART has written everything from picture books for young
-            readers to football stories, travel writing, fantasy and horror.
-          </p>
-          <br />
-          <a class="btn" href="https://en.wikipedia.org/wiki/Paul_Stewart_(writer)"
-            >Learn More</a
-          >
+          <img
+            src="./images/pstewart.jpeg"
+            alt="Paul Stewart Photo"
+            class="pic"
+          />
+          <div>
+            <p>
+              <b>PAUL STEWART</b> has written everything from picture books for young
+              readers to football stories, travel writing, fantasy and horror.
+            </p>
+            <br />
+            <a
+              class="btn"
+              href="https://en.wikipedia.org/wiki/Paul_Stewart_(writer)"
+              >Learn More</a
+            >
+          </div>
         </div>
-        <img src="./images/criddel.jpeg" alt="Chris Riddel Photo" />
         <div class="bio">
-          <p>
-            CHRIS RIDDELL is an author, illustrator and the political cartoonist
-            for the Observer. He was appointed the UK's Waterstones Children's
-            Laureate in 2015.
-          </p>
-          <br />
-          <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Learn More</a>
+          <img
+            src="./images/criddel.jpeg"
+            alt="Chris Riddel Photo"
+            class="pic"
+          />
+          <div>
+            <p>
+              <b>CHRIS RIDDELL</b> is an author, illustrator and the political
+              cartoonist for the Observer. He was appointed the UK's Waterstones
+              Children's Laureate in 2015.
+            </p>
+            <br />
+            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell"
+              >Learn More</a
+            >
+          </div>
         </div>
       </div>
     </div>

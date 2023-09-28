@@ -3,41 +3,48 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <style>
-
-      .books {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        background-color: lightgray;
-      }
-
       ul {
-        position: fixed;
-        bottom: 0;
+        width: 100%;
         padding: 0;
         display: flex;
         list-style-type: none;
       }
 
       li {
-        align-self: bottom;
-        display: block;
-      }
-
-      ul img {
         width: 100%;
-        height: fit-content;
-        border: solid;
-        border-width: 2px;
-        border-color: #cf620e;
       }
 
-      .buy {
+      .title {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+      }
+
+      #title1 {
+        background-color: #87e088;
+      }
+      #title2 {
+        background-color: #ffbf75;
+      }
+      #title3 {
+        background-color: #c4aaf2;
+      }
+      #title4 {
+        background-color: #a7a7b5;
+      }
+      #title5 {
+        background-color: #b1cce3;
+      }
+
+      .btnContainer {
+        margin: 20px;
+        height: 50px;
         display: flex;
-        margin-top: 20px;
       }
 
       .btn {
+        margin: auto;
+        align-self: center;
         background-color: #f7c49c;
         border-color: #cf620e;
         color: #472001;
@@ -46,8 +53,6 @@
       .btn:hover:not(.active) {
         background-color: #ffe2cc;
       }
-
-
     </style>
     <title>The Edge Chronicals : Books</title>
   </head>
@@ -67,46 +72,27 @@
         />
       </nav>
     </div>
-    <div class="first undernav">
-
-    </div>
-    <div class="books">
-      <ul>
-        <li>
-          <h3>Beyond the Deep Woods</h3>
-          <img src="./images/book1.png" alt="Book 1 Cover" />
-          <div class="buy">
-            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Purchase</a>
-          </div>
-        </li>
-        <li>
-          <img src="./images/book2.png" alt="Book 2 Cover" />
-          <div class="buy">
-            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Purchase</a>
-          </div>
-        </li>
-        <li>
-          <img src="./images/book3.png" alt="Book 3 Cover" />
-          <div class="buy">
-            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Purchase</a>
-          </div>
-        </li>
-        <li>
-          <img src="./images/book4.png" alt="Book 4 Cover" />
-          <div class="buy">
-            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Purchase</a>
-          </div>
-        </li>
-        <li>
-          <img src="./images/book5.png" alt="Book 5 Cover" />
-          <div class="buy">
-            <a class="btn" href="https://en.wikipedia.org/wiki/Chris_Riddell">Purchase</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <!--use ul for books-->
-    <!--add links to buy the book-->
+    <ul class="undernav">
+      <li>
+        <h3 class="title" id="title1">Beyond the Deep Woods</h3>
+        <img src="./images/book1.png" alt="Book 1 Cover" />
+      </li>
+      <li>
+        <h3 class="title" id="title2">Storm Chaser</h3>
+        <img src="./images/book2.png" alt="Book 2 Cover" />
+      </li>
+      <li>
+        <h3 class="title" id="title3">Midnight over Sanctaphrax</h3>
+        <img src="./images/book3.png" alt="Book 3 Cover" />
+      </li>
+      <li>
+        <h3 class="title" id="title4">Curse of the Gloamglozer</h3>
+        <img src="./images/book4.png" alt="Book 4 Cover" />
+      </li>
+      <li>
+        <h3 class="title" id="title5">The Last of the Sky Pirates</h3>
+        <img src="./images/book5.png" alt="Book 5 Cover" />
+      </li>
+    </ul>
   </body>
 </html>
