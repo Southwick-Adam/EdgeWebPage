@@ -5,65 +5,73 @@
     <style>
       ul {
         width: 100%;
-        padding: 0;
-        display: flex;
+        margin-top: 0;
+        padding-left: 0;
+        display: block;
         list-style-type: none;
-        margin: 0;
       }
+
       li {
-        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        padding: 50px;
       }
+
       li img {
-        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
       }
 
-      .title {
-        text-align: center;
-        padding: 20px;
-        margin: 0;
+      section {
+        padding: 25px;
+        align-self: center;
+        max-width: 900px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
       }
 
-      .t1,
-      .hc1 {
+      .center {
+        padding-left: 50px;
+      }
+
+      section p {
+        line-height: 35px;
+        margin-top: 25px;
+      }
+
+      section h3 {
+        text-decoration: underline;
+      }
+
+      #b1 {
         background-color: #9deb9e;
       }
-      .t2,
-      .hc2 {
+      #b2 {
         background-color: #ffbf75;
       }
-      .t3,
-      .hc3 {
+      #b3 {
         background-color: #c4aaf2;
       }
-      .t4,
-      .hc4 {
+      #b4 {
         background-color: #a7a7b5;
       }
-      .t5,
-      .hc5 {
+      #b5 {
         background-color: #b1cce3;
       }
 
-      .book1, .book2, .book3, .book4, .book5 {
-        box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+      #s1 {
+        background-color: #bce8bd;
       }
-
-      .hc1, .hc2, .hc3, .hc4, .hc5 {
-
-        position: absolute;
-        margin: 0;
+      #s2 {
+        background-color: #fad7af;
       }
-
-      .hover-content p {
-        font-family: fantasy;
-        padding: 30px;
-        margin-top: 0;
+      #s3 {
+        background-color: #e6d9fc;
       }
-
-      p:hover .hc1 {
-        display: none;
+      #s4 {
+        background-color: #dadae0;
       }
-
+      #s5 {
+        background-color: #dae8f5;
+      }
     </style>
     <title>The Edge Chronicals : Books</title>
   </head>
@@ -83,38 +91,97 @@
         />
       </nav>
     </div>
-    <ul class="undernav">
-      <li>
-        <h3 class="title t1">Beyond the Deep Woods</h3>
-        <img class="book1" src="./images/book1.png" alt="Book 1 Cover" />
-      </li>
-      <li>
-        <h3 class="title t2">Storm Chaser</h3>
-        <img class="book2" src="./images/book2.png" alt="Book 2 Cover" />
-      </li>
-      <li>
-        <h3 class="title t3">Midnight over Sanctaphrax</h3>
-        <img class="book3" src="./images/book3.png" alt="Book 3 Cover" />
-      </li>
-      <li>
-        <h3 class="title t4">Curse of the Gloamglozer</h3>
-        <img class="book4" src="./images/book4.png" alt="Book 4 Cover" />
-      </li>
-      <li>
-        <h3 class="title t5">The Last of the Sky Pirates</h3>
-        <img class="book5" src="./images/book5.png" alt="Book 5 Cover" />
-      </li>
-    </ul>
-    <section class="hover-content hc1">
-      <p>
-        Young Twig lives in the Deepwoods, among the Woodtrolls, but he isn't
-        one of them. In a brave attempt to find where he belongs, Twig wanders
-        into the mysterious world beyond the Deepwoods. He meets a collection of
-        odd companions, such as his wise guardian, the Caterbird; the
-        Slaughterers, a peaceful race who butcher animals; and the vicious,
-        bile-swilling Rotsucker. Twig steadfastly pursues his quest until he
-        discovers his roots, not among the trees, but in the skies…
-      </p>
-    </section>
+    <div class="undernav">
+      <ul>
+        <li id="b1">
+          <img src="./images/book1.png" alt="Book 1 Cover" />
+          <div class="center">
+            <section id="s1">
+              <h3>Beyond the Deep Woods</h3>
+              <p>
+                Young Twig lives in the Deepwoods, among the Woodtrolls, but he
+                isn't one of them. In a brave attempt to find where he belongs,
+                Twig wanders into the mysterious world beyond the Deepwoods. He
+                meets a collection of odd companions, such as his wise guardian,
+                the Caterbird; the Slaughterers, a peaceful race who butcher
+                animals; and the vicious, bile-swilling Rotsucker. Twig
+                steadfastly pursues his quest until he discovers his roots, not
+                among the trees, but in the skies…
+              </p>
+            </section>
+          </div>
+        </li>
+        <li id="b2">
+          <img src="./images/book2.png" alt="Book 2 Cover" />
+          <div class="center">
+            <section id="s2">
+              <h3>Storm Chaser</h3>
+              <p>
+                Sixteen-year-old Twig is eager to begin his new life as a sky
+                pirate on board the famous Stormchaser. The crew's quest: to
+                collect stormphrax—the precious, magical substance formed at the
+                heart of a storm—in order to save the floating city of
+                Sanctaphrax. Only a sky ship as powerful as the Stormchaser,
+                piloted by a man as fearless as Cloud Wolf, could risk entering
+                such a storm...
+              </p>
+            </section>
+          </div>
+        </li>
+        <li id="b3">
+          <img src="./images/book3.png" alt="Book 3 Cover" />
+          <div class="center">
+            <section id="s3">
+              <h3>Midnight over Sanctaphrax</h3>
+              <p>
+                Sweeping in from the open sky, the Mother Storm must strike the
+                source of the Edgewater River to bring new energy to the land.
+                But in its way is Sanctaphrax, a magnificent city built on a
+                floating rock and tethered to the land. Only one person can save
+                the Edgelands from certain disaster: Twig, the young sky pirate
+                captain who dared to sail over the Edge, and returned with his
+                memory shattered. But to recover his memory, Twig must first
+                find his lost crew. And this means a journey back into the
+                Deepwoods...
+              </p>
+            </section>
+          </div>
+        </li>
+        <li id="b4">
+          <img src="./images/book4.png" alt="Book 4 Cover" />
+          <div class="center">
+            <section id="s4">
+              <h3>Curse of the Gloamglozer</h3>
+              <p>
+                Quint is the son of a sky pirate captain. He arrives in
+                Sanctaphrax at the request of Linius Pallitax, the Most High
+                Academe, who needs an apprentice he can trust to carry out a
+                series of highly important tasks. Just how important, Quint is
+                about to find out as he and Linius's only daughter, Maris, are
+                plunged into the midst of a terrifying adventure that takes them
+                deep within the rock upon which Sanctaphrax is built...
+              </p>
+            </section>
+          </div>
+        </li>
+        <li id="b5">
+          <img src="./images/book5.png" alt="Book 5 Cover" />
+          <div class="center">
+            <section id="s5">
+              <h3>The Last of the Sky Pirates</h3>
+              <p>
+                Rook Barkwater lives in the network of sewer chambers beneath
+                Undertown, the bustling main city of the Edgeworld. He dreams of
+                becoming a librarian knight—one of those sent out to explore the
+                mysteries of their world. Breaking all the rules, he sets out on
+                a journey to the Free Glades and beyond, and is thrust into a
+                bold adventure that dares to challenge the might of the dreaded
+                Guardians of the night…
+              </p>
+            </section>
+          </div>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

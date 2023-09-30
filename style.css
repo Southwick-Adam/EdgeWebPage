@@ -94,3 +94,7 @@ nav a:hover:not(.active) {
   font-weight: bold;
   text-decoration: none;
 }
+
+.center {
+  display: flex;
+}
