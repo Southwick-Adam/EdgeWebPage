@@ -97,4 +97,12 @@ nav a:hover:not(.active) {
 
 .center {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background_image {
+  position: fixed;
+  z-index: -1;
+  
 }
