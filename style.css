@@ -104,5 +104,5 @@ nav a:hover:not(.active) {
 .background_image {
   position: fixed;
   z-index: -1;
-  
+  top: 60px;
 }
