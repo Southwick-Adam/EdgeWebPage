@@ -7,14 +7,12 @@
         width: 100%;
         margin-top: 0;
         padding-left: 0;
-        display: block;
         list-style-type: none;
       }
 
       li {
         display: flex;
-        padding-top: 50px;
-        padding: 50px;
+        padding: 25px 50px;
       }
 
       li img {
@@ -41,7 +39,8 @@
       }
 
       #b1 {
-        background-color: rgba(157, 235, 158, 0.6)
+        background-color: rgba(157, 235, 158, 0.6);
+        padding-top: 50px;
       }
       #b2 {
         background-color: rgba(255, 191, 117, 0.6);
@@ -54,6 +53,7 @@
       }
       #b5 {
         background-color: rgba(177, 204, 227, 0.6);
+        padding-bottom: 50px;
       }
 
       #s1 {
@@ -71,6 +71,19 @@
       #s5 {
         background-color: #e9f0f7;
       }
+
+      #grad1 {
+        background-image: linear-gradient(rgb(157, 235, 158), rgb(255, 191, 117));
+      }
+      #grad2 {
+        background-image: linear-gradient(rgb(255, 191, 117), rgb(196, 170, 242));
+      }
+      #grad3 {
+        background-image: linear-gradient(rgb(196, 170, 242), rgb(167, 167, 181));
+      }
+      #grad4 {
+        background-image: linear-gradient(rgb(167, 167, 181), rgb(177, 204, 227));
+      }
     </style>
     <title>The Edge Chronicals : Books</title>
   </head>
@@ -79,7 +92,7 @@
       <nav>
         <a href="home.html">Home</a>
         <a class="active" href="#">Books</a>
-        <a href="world.html">World</a>
+        <a href="gallery.html">Gallery</a>
         <a href="media.html">Media</a>
         <a href="reviews.html">Reviews</a>
         <img
@@ -113,6 +126,9 @@
             </section>
           </div>
         </li>
+
+        <li class="grad" id="grad1"></li>
+
         <li id="b2">
           <div class="center">
             <img src="./images/book2.png" alt="Book 2 Cover" />
@@ -130,6 +146,9 @@
             </section>
           </div>
         </li>
+
+        <li class="grad" id="grad2"></li>
+
         <li id="b3">
           <div class="center">
             <img src="./images/book3.png" alt="Book 3 Cover" />
@@ -149,6 +168,9 @@
             </section>
           </div>
         </li>
+
+        <li class="grad" id="grad3"></li>
+
         <li id="b4">
           <div class="center">
             <img src="./images/book4.png" alt="Book 4 Cover" />
@@ -166,6 +188,9 @@
             </section>
           </div>
         </li>
+
+        <li class="grad" id="grad4"></li>
+
         <li id="b5">
           <div class="center">
             <img src="./images/book5.png" alt="Book 5 Cover" />

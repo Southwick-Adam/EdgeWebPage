@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+      }
+
+      #gallery {
+        display: inline;
+        padding-top: 50px;
+      }
+
+      #places h1 {
+        padding-top: 80px;
+      }
+
+      #places {
+        background-color: rgba(195, 235, 210, 0.6);
+      }
+      #creatures {
+        background-color: rgba(221, 192, 173, 0.6);
+      }
+      #char {
+        background-color: rgba(167, 190, 220, 0.6);
+      }
+
+      .frame {
+        height: fit-content;
+        padding: 10px;
+        margin: 15px;
+        border: solid;
+        border-radius: 3px;
+        border-width: 3px;
+      }
+
+      .frame img {
+        border: solid;
+        border-radius: 3px;
+        border-width: 3px;
+      }
+
+      .frame h3 {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: larger;
+      }
+
+      .frame p {
+        font-family: fantasy;
+        font-size: medium;
+        padding-left: 10px;
+        margin-bottom: 5px;
+      }
+
+      #places .frame {
+        background-color: rgb(237, 244, 239);
+        border-color: rgb(172, 219, 185);
+      }
+      #places img {
+        height: 350px;
+        border-color: rgb(162, 194, 174);
+      }
+      #creatures .frame {
+        border-color: rgb(227, 198, 179);
+        background-color: rgb(246, 241, 239);
+      }
+      #creatures img {
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 250px;
+        border-color: rgb(181, 140, 114);
+      }
+      #char .frame {
+        border-color: rgb(175, 197, 226);
+        background-color: rgb(240, 242, 246);
+      }
+      #char img {
+        border-color: rgb(106, 134, 171);
+        height: 300px;
+      }
+
+      #char .galblock {
+        padding-bottom: 30px;
+      }
+
+      .pics {
+        display: flex;
+        max-width: 90%;
+        overflow: auto;
+        padding-left: 5%;
+      }
+
+      #grad1 {
+        background-image: linear-gradient(rgb(195, 235, 210), rgb(221, 192, 173));
+      }
+      #grad2 {
+        background-image: linear-gradient(rgb(221, 192, 173), rgb(167, 190, 220));
+      }
+
+    </style>
+    <title>The Edge Chronicals : Media</title>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="books.html">Books</a>
+        <a class="active" href="#">Gallery</a>
+        <a href="media.html">Media</a>
+        <a href="reviews.html">Reviews</a>
+        <img
+          src="./images/logo.png"
+          alt="Logo"
+          id="logo"
+          style="text-align: right"
+        />
+      </nav>
+    </div>
+    <div class="background_image">
+      <img src="./images/edgecrop.jpeg" alt="Edge map background" />
+    </div>
+    <div id="gallery" class="undernav">
+      <div id="places" class="galBlock">
+        <h1>Places</h1>
+        <div class="pics">
+          <div class="frame">
+            <h3>The Deep Woods</h3>
+            <img src="./images/deepwoods.jpeg" alt="deepwoods" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Sanctaphrax</h3>
+            <img src="./images/sanctaphrax.jpeg" alt="sanctaphrax" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Undertown</h3>
+            <img src="./images/undertown.jpeg" alt="undertown" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Farrow Ridge</h3>
+            <img src="./images/farrowRidges.jpeg" alt="Farrow Ridge" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Gorge Town</h3>
+            <img src="./images/gorgetown.jpeg" alt="gorge town" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Riverrise</h3>
+            <img src="./images/riverrise.jpeg" alt="riverrise" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grad" id="grad1"></div>
+
+      <div id="creatures" class="galBlock">
+        <h1>Creatures</h1>
+        <div class="pics">
+          <div class="frame">
+            <h3>Bandabear</h3>
+            <img src="./images/bandabear.jpeg" alt="bandabear" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Shrike</h3>
+            <img src="./images/shrike.jpg" alt="shrike" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Gloamglozer</h3>
+            <img src="./images/Gloamglozer.jpeg" alt="gloamglozer" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Twilight Walkers</h3>
+            <img src="./images/walkers.jpeg" alt="walkers" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Logworm</h3>
+            <img src="./images/Logworm.jpg" alt="logworm" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Muglump</h3>
+            <img src="./images/Muglump.jpg" alt="muglump" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Spindlebug</h3>
+            <img src="./images/Spindlebug.webp" alt="spindlebug" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Slime Mole</h3>
+            <img src="./images/Slime-Mole.jpg" alt="slime mole" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Wig Wig</h3>
+            <img src="./images/Wigwigs.jpg" alt="wigwig" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grad" id="grad2"></div>
+
+      <div id="char" class="galBlock">
+        <h1>Characters</h1>
+        <div class="pics">
+          <div class="frame">
+            <h3>Twig</h3>
+            <img src="./images/twig.jpeg" alt="twig" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Tem</h3>
+            <img src="./images/Tem.webp" alt="tem" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Mud Bandit</h3>
+            <img src="./images/mudPirate.jpeg" alt="mud bandit" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Quint</h3>
+            <img src="./images/quint.webp" alt="quint" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Orbix</h3>
+            <img src="./images/Orbix.jpg" alt="Orbix" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Rook</h3>
+            <img src="./images/rook.jpeg" alt="rook" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Xanth</h3>
+            <img src="./images/freeglader.webp" alt="xanth" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+          <div class="frame">
+            <h3>Proffesor of Light</h3>
+            <img src="./images/libknights.webp" alt="Proffesor of Light" />
+            <p>
+              A huge forest, described as endless. Different species of plants
+              and animals, many of which were predatory or poisonous, make the
+              Deepwoods a very dangerous place, especially at night.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
