@@ -42,6 +42,10 @@ tr:nth-child(even) {
   opacity: 0.7;
 }
 
+footer {
+  background-color: rgba(201, 201, 201, 0.6);
+}
+
 @media screen and (max-width: 700px) {
   .score {
     padding: 15px;

@@ -73,6 +73,10 @@ p {
   box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
 }
 
+footer {
+  background-color: #bfd7db;
+}
+
 @media screen and (max-width: 980px) {
   .margin {
     margin-left: 20px;

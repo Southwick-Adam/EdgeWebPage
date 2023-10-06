@@ -114,6 +114,14 @@ nav a:hover:not(.active) {
   width: 100%;
 }
 
+footer {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  justify-content: right;
+  padding-right: 20px;
+}
+
 @media screen and (max-width: 800px) {
   #logo {
     display: none;
