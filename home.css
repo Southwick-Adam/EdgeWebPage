@@ -73,22 +73,7 @@ p {
   box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
 }
 
-@media screen and (max-width: 900px) {
-  .authors h2 {
-    padding-top: 30px;
-  }
-
-  #auth_info {
-    display: block;
-    padding-right: 20px;
-  }
-
-  .bio {
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
   .margin {
     margin-left: 20px;
     margin-right: 20px;
@@ -114,5 +99,18 @@ p {
 
   h1 {
     padding-top: 20px;
+  }
+
+  .authors h2 {
+    padding-top: 30px;
+  }
+
+  #auth_info {
+    display: block;
+    padding-right: 20px;
+  }
+
+  .bio {
+    padding-bottom: 30px;
   }
 }

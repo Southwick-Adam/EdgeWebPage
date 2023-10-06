@@ -85,7 +85,7 @@ section h3 {
   background-image: linear-gradient(rgb(167, 167, 181), rgb(177, 204, 227));
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
   li {
     display: block;
     padding-left: 15px;
