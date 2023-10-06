@@ -33,6 +33,11 @@ section h3 {
   font-size: x-large;
 }
 
+.cover {
+  margin: 0;
+  padding: 0;
+}
+
 #b1 {
   background-color: rgba(157, 235, 158, 0.6);
   padding-top: 50px;
@@ -78,4 +83,22 @@ section h3 {
 }
 #grad4 {
   background-image: linear-gradient(rgb(167, 167, 181), rgb(177, 204, 227));
+}
+
+@media screen and (max-width: 1000px) {
+  li {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  li img {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .cover {
+    width: 100%;
+    display: flex;
+    justify-content: center
+  }
 }
