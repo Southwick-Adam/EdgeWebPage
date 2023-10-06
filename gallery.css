@@ -10,7 +10,7 @@ h1 {
 }
 
 #places h1 {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 #places {
@@ -95,4 +95,36 @@ h1 {
 }
 #grad2 {
   background-image: linear-gradient(rgb(221, 192, 173), rgb(167, 190, 220));
+}
+
+@media screen and (max-width: 600px) {
+  .frame {
+    padding: 0;
+  }
+  .pics {
+    padding: 0;
+    margin: 0;
+  }
+
+  .frame img {
+    border-left: none;
+    border-right: none;
+  }
+
+  .frame h3 {
+    padding-top: 20px;
+  }
+
+  #creatures img {
+    margin: 0;
+  }
+
+  #places img {
+    height: 300px;
+  }
+
+  #char {
+    padding-bottom: 50px;
+  }
+
 }
