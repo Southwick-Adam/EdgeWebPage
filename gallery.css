@@ -1,0 +1,98 @@
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#gallery {
+  display: inline;
+  padding-top: 50px;
+}
+
+#places h1 {
+  padding-top: 80px;
+}
+
+#places {
+  background-color: rgba(195, 235, 210, 0.6);
+}
+#creatures {
+  background-color: rgba(221, 192, 173, 0.6);
+}
+#char {
+  background-color: rgba(167, 190, 220, 0.6);
+}
+
+.frame {
+  height: fit-content;
+  padding: 10px;
+  margin: 15px;
+  border: solid;
+  border-radius: 3px;
+  border-width: 3px;
+}
+
+.frame img {
+  border: solid;
+  border-radius: 3px;
+  border-width: 3px;
+}
+
+.frame h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+.frame p {
+  font-family: fantasy;
+  font-size: medium;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+#places .frame {
+  background-color: rgb(237, 244, 239);
+  border-color: rgb(172, 219, 185);
+}
+#places img {
+  height: 350px;
+  border-color: rgb(162, 194, 174);
+}
+#creatures .frame {
+  border-color: rgb(227, 198, 179);
+  background-color: rgb(246, 241, 239);
+}
+#creatures img {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 250px;
+  border-color: rgb(181, 140, 114);
+}
+#char .frame {
+  border-color: rgb(175, 197, 226);
+  background-color: rgb(240, 242, 246);
+}
+#char img {
+  border-color: rgb(106, 134, 171);
+  height: 300px;
+}
+
+#char .galblock {
+  padding-bottom: 30px;
+}
+
+.pics {
+  display: flex;
+  max-width: 90%;
+  overflow: auto;
+  padding-left: 5%;
+}
+
+#grad1 {
+  background-image: linear-gradient(rgb(195, 235, 210), rgb(221, 192, 173));
+}
+#grad2 {
+  background-image: linear-gradient(rgb(221, 192, 173), rgb(167, 190, 220));
+}

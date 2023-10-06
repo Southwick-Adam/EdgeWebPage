@@ -2,75 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .first {
-        display: flex;
-      }
-
-      p {
-        display: block;
-      }
-
-      .text {
-        width: 50%;
-        margin-top: 50px;
-      }
-
-      #map {
-        align-self: center;
-        width: 50%;
-        height: fit-content;
-        margin: 20px;
-        padding-top: 30px;
-        max-width: 750px;
-      }
-
-      .authors {
-        display: inline;
-        width: 100%;
-      }
-
-      .authors h2 {
-        margin: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40px;
-        background-color: #bfd7db;
-        color: #2a4145;
-      }
-
-      #auth_info {
-        display: flex;
-        background-color: #bfd7db;
-        padding-right: 40px;
-      }
-
-      .btn {
-        background-color: #dce6e8;
-        border-color: #54828a;
-        color: #2a4145;
-      }
-
-      .btn:hover:not(.active) {
-        background-color: white;
-      }
-
-      .bio {
-        padding-left: 40px;
-        background-color: #bfd7db;
-        padding-top: 15px;
-        display: flex;
-      }
-
-      .pic {
-        width: 200px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        background-color: #bfd7db;
-        height: fit-content;
-        box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
-      }
-    </style>
+    <link rel="stylesheet" href="home.css" />
     <title>The Edge Chronicals : Home</title>
   </head>
   <body>
@@ -89,7 +21,7 @@
         />
       </nav>
     </div>
-    <div class="first margin undernav">
+    <div class="undernav margin" id="first">
       <section class="text">
         <h1>Welcome to The Edge...</h1>
         <h3>
@@ -125,8 +57,9 @@
           />
           <div>
             <p>
-              <b>PAUL STEWART</b> has written everything from picture books for young
-              readers to football stories, travel writing, fantasy and horror.
+              <b>PAUL STEWART</b> has written everything from picture books for
+              young readers to football stories, travel writing, fantasy and
+              horror.
             </p>
             <br />
             <a
